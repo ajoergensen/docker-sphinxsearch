@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /var/lib/sphinxsearch/data
+exec 2>&1
+exec /usr/bin/searchd --nodetach 
